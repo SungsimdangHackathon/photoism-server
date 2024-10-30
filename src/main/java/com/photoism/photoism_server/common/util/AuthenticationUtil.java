@@ -1,4 +1,4 @@
-package com.photoism.photoism_server.config.util;
+package com.photoism.photoism_server.common.util;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
