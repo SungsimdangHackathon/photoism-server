@@ -1,4 +1,4 @@
-package com.photoism.photoism_server.config.dto;
+package com.photoism.photoism_server.common.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
