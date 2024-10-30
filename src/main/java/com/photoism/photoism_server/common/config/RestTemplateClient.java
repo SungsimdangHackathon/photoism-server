@@ -1,4 +1,4 @@
-package com.photoism.photoism_server.config.config;
+package com.photoism.photoism_server.common.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

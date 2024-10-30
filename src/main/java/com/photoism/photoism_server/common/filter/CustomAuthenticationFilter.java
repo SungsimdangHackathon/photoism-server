@@ -1,4 +1,4 @@
-package com.photoism.photoism_server.config.filter;
+package com.photoism.photoism_server.common.filter;
 
 
 import jakarta.servlet.*;
