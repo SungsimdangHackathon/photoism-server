@@ -1,9 +1,9 @@
-package com.photoism.photoism_server.config.exception;
+package com.photoism.photoism_server.common.exception;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.laundering.laundering_server.common.dto.ErrorResponse;
+import com.photoism.photoism_server.common.dto.ErrorResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.core.AuthenticationException;

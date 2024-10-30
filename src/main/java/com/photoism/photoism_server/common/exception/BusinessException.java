@@ -1,4 +1,4 @@
-package com.photoism.photoism_server.config.exception;
+package com.photoism.photoism_server.common.exception;
 
 import lombok.Getter;
 

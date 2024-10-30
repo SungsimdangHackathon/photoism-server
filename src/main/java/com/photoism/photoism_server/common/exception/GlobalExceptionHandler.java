@@ -1,7 +1,7 @@
-package com.photoism.photoism_server.config.exception;
+package com.photoism.photoism_server.common.exception;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
-import com.laundering.laundering_server.common.dto.ErrorResponse;
+import com.photoism.photoism_server.common.dto.ErrorResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-import static com.laundering.laundering_server.common.exception.ErrorCode.*;
+import static com.photoism.photoism_server.common.exception.ErrorCode.*;
 
 @Slf4j  // 클래스에서 로그를 기록할 수 있도록 Lombok 애너테이션 추가
 @RestControllerAdvice  // 모든 REST 컨트롤러에서 발생하는 예외를 처리하기 위한 애너테이션
