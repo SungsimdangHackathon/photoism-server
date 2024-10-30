@@ -1,9 +1,14 @@
 spring:
+  config:
+    import:
+      - optional:file:env/spring.env[.properties]  # 'env/spring.env' 또는 'env/spring.env.properties' 파일을 불러옴
+
   datasource:
     driver-class-name: ${DB_DRIVER_CLASS}
     url: ${DB_URL}
     username: ${DB_USER}
     password: ${DB_PASSWORD}
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -11,3 +16,9 @@ spring:
       hibernate:
         format_sql: true
     show-sql: true
+
+jwt:
+  client-secret: ${JWT_CLIENT_SECRET}
+  token-expire: ${JWT_TOKEN_EXPIRE}
+  refresh-token-expire: ${JWT_REFRESH_TOKEN_EXPIRE}
+  issuer: ${JWT_ISSUER}
