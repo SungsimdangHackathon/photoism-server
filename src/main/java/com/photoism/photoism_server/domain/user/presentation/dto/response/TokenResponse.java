@@ -1,2 +1,7 @@
-package com.photoism.photoism_server.domain.user.presentation.dto.response;public record TokenResponse() {
+package com.photoism.photoism_server.domain.user.presentation.dto.response;
+
+public record TokenResponse(
+        String accessToken,
+        String refreshToken
+) {
 }
