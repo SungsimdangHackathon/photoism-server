@@ -1,4 +1,4 @@
-package com.photoism.photoism_server.config.jwt;
+package com.photoism.photoism_server.common.jwt;
 
 
 import lombok.Getter;
