@@ -18,8 +18,8 @@ import java.util.UUID;
 @AllArgsConstructor
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private String username; // 유저가 입력한 ID
 
@@ -27,4 +27,5 @@ public class User {
 
     private String email;
 
+    private String refreshToken;
 }
