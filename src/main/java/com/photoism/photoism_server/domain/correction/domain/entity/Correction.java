@@ -18,15 +18,21 @@ public class Correction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Eyes eye;
-
-    private Lips lips;
-
-    private Nose nose;
-
     private Shape shape;
 
     private Skin skin;
+
+    private Long eyeSize; // 눈 크기
+
+    private Long eyeAngle; // 눈 각도
+
+    private Long ala; // 콧볼
+
+    private Long nasalBridge; // 콧등
+
+    private Long upper; // 윗입술
+
+    private Long lower; // 아랫입술
 
     @ManyToOne
     @JoinColumn(name = "user_id")
